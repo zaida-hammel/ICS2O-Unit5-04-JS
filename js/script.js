@@ -17,13 +17,11 @@ if (navigator.serviceWorker) {
  * This function determines if you are eligible for student discount.
  */
 function myButtonClicked() {
-  var userAge = parseInt(document.getElementById("userAge").value)
-
-  var tuesday = document.getElementById("tuesday")
-  var thursday = document.getElementById("thursday")
+  const userAge = document.getElementById("userAge").value
+  const dayWeek = document.getElementById("days").value 
 
   
-  if ((tuesday == true) || (thursday == true) || (userAge > 12 && userAge < 21)) {
+  if ((dayWeek == "tuesday") || (dayWeek == "thursday") || (userAge > 12 && userAge < 21)) {
     document.getElementById("answers").innerHTML = "You have a student discount! Pay student pricing."
   } else {
     document.getElementById("answers").innerHTML = "You do not have a discount, pay regular pricing."
