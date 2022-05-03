@@ -47,7 +47,6 @@ plugins:
 #########
 rules:
   {
-    "prettier/prettier": "error",
     "require-jsdoc":
       [
         "error",
