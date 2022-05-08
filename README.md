@@ -1,4 +1,4 @@
-# ICS2O-Template-HTML
+# ICS2O-Unit5-04-JS
 
 [![GitHub's Super Linter](https://github.com/zaida-hammel/ICS2O-Unit5-04-JS/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/zaida-hammel1/ICS2O-Unit5-04-JS/actions)
 
