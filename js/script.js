@@ -21,7 +21,7 @@ function myButtonClicked() {
   const dayWeek = document.getElementById("days").value 
 
   
-  if ((dayWeek == "tuesday") || (dayWeek == "thursday") || (userAge > 12 && userAge < 21)) {
+  if ((dayWeek == "tuesday") || (dayWeek == "thursday") && (userAge > 12 && userAge < 21)) {
     document.getElementById("answers").innerHTML = "You have a student discount! Pay student pricing."
   } else {
     document.getElementById("answers").innerHTML = "You do not have a discount, pay regular pricing."
